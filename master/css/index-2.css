@@ -1,0 +1,137 @@
+.mt-12 {
+    margin-top: 10.5rem; }
+  
+  .section-wrapper {
+    display: flex; }
+    .section-wrapper .content-right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 8rem; }
+      .section-wrapper .content-right .btn-1 {
+        width: 40%;
+        color: #ffffff;
+        background: #0E1C3E;
+        border: none;
+        font-family: "Playfair Display";
+        padding: 10px 20px; }
+    .section-wrapper h1 {
+      font-family: "Montserrat";
+      font-weight: 600;
+      color: #0E1C3E; }
+    .section-wrapper p {
+      font-family: "Montserrat";
+      color: #A0A8BC;
+      line-height: 1.5rem; }
+  
+  .collapse ul .font-weight-bold {
+    font-family: "Montserrat"; }
+  .collapse ul li a {
+    font-family: "Playfair Display"; }
+  
+  .right-content img {
+    width: 100%; }
+  
+  .left-content {
+    padding-left: 100px; }
+  
+  .button-box {
+    transition: background 1s linear; }
+  
+  .button-box:hover {
+    background: linear-gradient(148.7deg, #FFDCE4 22.66%, #BFDAFF 75.15%); }
+  
+  section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    section .container {
+      width: 90%;
+      max-width: 500px;
+      margin: 50px auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* background-color: aqua; */ }
+      section .container .right {
+        width: 90%;
+        min-height: 1rem;
+        background: linear-gradient(148.7deg, rgba(255, 220, 228, 0.7) 22.66%, rgba(191, 218, 255, 0.7) 75.15%);
+        backdrop-filter: blur(7px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        color: white;
+        margin-right: -150px;
+        z-index: 100; }
+        section .container .right .fa-arrow-right {
+          color: #000000; }
+        section .container .right .content-2 p {
+          font-family: "Montserrat";
+          color: #000000; }
+        section .container .right .content-2 h1 {
+          font-family: "Playfair Display";
+          z-index: 10; }
+        section .container .right .content-3 {
+          padding-left: 6.5rem; }
+      section .container .left {
+        width: 80%;
+        height: 500px;
+        background: url(/img/eldecicek.png) no-repeat center/cover; }
+  
+  h5 {
+    background: -webkit-linear-gradient(#ffdce4, #bfdaff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Playfair Display";
+    font-size: 1.5rem; }
+  
+  .row.row-wrapper {
+    background-color: #10141F; }
+    .row.row-wrapper .footer-wrapper-footer ul li {
+      border-bottom: 0.5px solid #2E4685;
+      padding-bottom: 1rem; }
+    .row.row-wrapper .footer-wrapper-footer ul li:nth-child(4) {
+      border: none; }
+    .row.row-wrapper .footer-wrapper-footer .footer-column {
+       }
+    .row.row-wrapper .footer-wrapper-footer .link-hover-style-1 {
+      font-family: "Montserrat";
+      color: #ffffff; }
+      .row.row-wrapper .footer-wrapper-footer .link-hover-style-1 a {
+        text-decoration: none; }
+    .row.row-wrapper .footer-wrapper-footer .link-hover-style-1:hover {
+      text-decoration: none;
+      color: #ffffff; }
+    .row.row-wrapper .aresa-logo-footer img {
+      width: 12rem; }
+  
+  .copyright {
+    padding-top: 3rem;
+    border-top: 0.5px solid #2E4685;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .copyright p {
+      color: #ffffff; }
+    .copyright img {
+      width: 150px; }
+  
+  @media screen and (max-width: 800px) {
+    .section-wrapper {
+      display: flex; }
+  
+    .content-right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-right: 200px; }
+  
+    .appear-animation {
+      display: none; } }
+  
+  /*# sourceMappingURL=index.css.map */
+  

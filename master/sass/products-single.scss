@@ -1,0 +1,202 @@
+@import "mixins";
+@import "variables";
+
+
+
+
+
+.list-style-none {
+    list-style: none;
+}
+
+.container {
+    .about_box {
+        p {
+            font-family: Montserrat;
+            color: black;
+            line-height: 22px;
+            letter-spacing: 0.01em;
+        }
+    }
+
+}
+
+
+//////// REQUEST BUTTON /////////
+
+.container-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+
+
+    .btn-request {
+        height: 50px;
+        width: 190px;
+        background-color: #0E1C3E;
+        text-transform: uppercase;
+        border: 4px solid rgb(255, 255, 255);
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        color: #F5F8FF;
+        font-family: $playfair;
+        font-weight: 600;
+        line-height: 1.5rem;
+        letter-spacing: 2%;
+    }
+
+    .btn-request::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 54px;
+        width: 194px;
+        background-color: transparent;
+        border: 2px solid #0E1C3E;
+    }
+
+
+}
+
+
+///////// İN CARD BUTTON ////////////
+.btn-on-gallery {
+    height: 45px;
+    width: 190px;
+    background-color: #F5F8FF;
+    text-transform: uppercase;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: $playfair;
+    font-weight: 600;
+    line-height: 1.5rem;
+    letter-spacing: 2%;
+    color: #0E1C3E;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+.btn-on-gallery::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 59px;
+    width: 205px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+
+
+
+
+.img-area {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+
+///////// CARD GALERYS //////////
+
+.flip-front-1 {
+    background: $images-linear,
+        url(/img/numune1.png);
+}
+
+.flip-front-2 {
+    background: $images-linear,
+        url(/img/numune2.png);
+}
+
+
+.flip-front-3 {
+    background: $images-linear,
+        url(/img/numune3.png);
+    color: white;
+
+}
+
+.flip-content .text-color-white {
+    font-family: $playfair;
+}
+
+.flip-content .text-color-white h4 {
+    background-color: yellow;
+    font-family: $playfair;
+}
+
+ul {
+
+    .font-weight-bold {
+        font-family: $mont;
+    }
+
+    li {
+        a {
+            font-family: $mont;
+        }
+    }
+
+
+}
+
+h4 {
+    font-family: $playfair;
+}
+
+
+ul.card-content {
+    box-shadow: $box-sh;
+    background: #F5F8FF;
+    color: #000000;
+    font-family: $mont;
+}
+
+
+
+@media screen and (max-width:750px) {
+
+    .container-btn{
+        margin-top: 0rem;
+    }
+
+    .cart-text-wrapper {
+        margin-bottom: 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .products-card {
+        padding-top: 2rem;
+       
+        .flip-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+
+        }
+
+    }
+
+
+
+}

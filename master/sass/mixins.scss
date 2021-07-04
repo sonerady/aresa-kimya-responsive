@@ -1,0 +1,92 @@
+// MİXİNS
+@mixin column-settings {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+@mixin button-box {
+    background-color: #ffffff;
+    padding: 8px 50px;
+    box-shadow: 0 0 0 2px #ffffff,
+        inset 0 0 0 4px rgba(0, 0, 0, 0);
+    font-family: "Playfair Display";
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 1rem;
+}
+
+@mixin images-1 {
+    background: linear-gradient(148.7deg, rgba(255, 220, 228, 0.65) 22.66%, rgba(159, 185, 221, 0.65) 75.15%),
+        url(/img/images-col4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin images-2 {
+    background: linear-gradient(148.7deg, rgba(255, 220, 228, 0.65) 22.66%, rgba(159, 185, 221, 0.65) 75.15%),
+        url(/img/images-col2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin images-3 {
+    background: linear-gradient(148.7deg, rgba(255, 220, 228, 0.65) 22.66%, rgba(159, 185, 221, 0.65) 75.15%),
+        url(/img/images-col1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin images-4 {
+    background: linear-gradient(148.7deg, rgba(255, 220, 228, 0.65) 22.66%, rgba(159, 185, 221, 0.65) 75.15%),
+        url(/img/images-col3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin bg-image-1 {
+    background: linear-gradient(148.7deg, rgba(255, 220, 228, 0.65) 22.66%, rgba(159, 185, 221, 0.65) 75.15%),
+        url(/img/bg-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin bg-image-2 {
+    background: linear-gradient(148.7deg, rgba(255, 220, 228, 0.65) 22.66%, rgba(159, 185, 221, 0.65) 75.15%),
+        url(/img/images-col4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@mixin bg-image-3 {
+    background: linear-gradient(148.7deg, rgba(255, 220, 228, 0.65) 22.66%, rgba(159, 185, 221, 0.65) 75.15%),
+        url(/img/room.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@mixin bg-image-4 {
+    background: linear-gradient(148.7deg, rgba(255, 220, 228, 0.65) 22.66%, rgba(159, 185, 221, 0.65) 75.15%),
+        url(/img/furniture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin bg-image-5 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 16.8%, rgba(0, 0, 0, 0) 100%),
+        url(/img/index-flower.jpg) no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin content-query {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 100%;
+}

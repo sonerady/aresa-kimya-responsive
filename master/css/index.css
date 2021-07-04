@@ -1,0 +1,322 @@
+@charset "UTF-8";
+.on-header-button {
+  border: none;
+  font-family: "Playfair Display";
+  padding: 0.7rem 2.1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0E1C3E;
+  background-color: #ffffff; }
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 40%; }
+  .header-content h2 {
+    font-family: "Playfair Display";
+    font-weight: 600; }
+  .header-content p {
+    letter-spacing: 1%;
+    font-family: "Playfair Display"; }
+
+.header-content-2 h2 {
+  font-family: "Playfair Display";
+  font-weight: 600; }
+.header-content-2 p {
+  letter-spacing: 1%;
+  font-family: "Playfair Display"; }
+
+.header-title {
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: #0E1C3E;
+  position: relative; }
+
+.header-title:after {
+  margin: 3rem;
+  content: "ARESA KİMYA";
+  position: absolute;
+  z-index: -1; }
+
+.mt-12 {
+  margin-top: 10.5rem; }
+
+.section-wrapper {
+  display: flex; }
+  .section-wrapper .content-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 8rem; }
+    .section-wrapper .content-right .btn-1 {
+      width: 40%;
+      color: #ffffff;
+      background: #0E1C3E;
+      border: none;
+      font-family: "Playfair Display";
+      padding: 10px 20px;
+      box-shadow: 0 0 0 2px #0E1C3E, inset 0 0 0 5px white; }
+  .section-wrapper p {
+    font-family: "Montserrat";
+    color: #A0A8BC;
+    line-height: 1.5rem;
+    display: inline; }
+
+.collapse ul .font-weight-bold {
+  font-family: "Montserrat"; }
+.collapse ul li a {
+  font-family: "Montserrat"; }
+
+.btn-2 {
+  position: absolute; }
+
+.button-box-header:hover {
+  background: linear-gradient(148.7deg, #FFDCE4 22.66%, #BFDAFF 75.15%);
+  transition: background 0.5s; }
+
+.right-content h1 {
+  z-index: 99;
+  position: relative; }
+
+.right-content h1::before {
+  content: "ARESA";
+  top: -2px;
+  left: -97px;
+  height: auto;
+  position: absolute;
+  font-size: 10rem;
+  font-weight: 900;
+  color: transparent;
+  -webkit-text-stroke: 0.5px #ebe9e9;
+  z-index: -5;
+  text-stroke: 2px #ebe9e9;
+  text-shadow: none; }
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 0 35%;
+  padding-left: 8.16rem;
+  padding-bottom: 12rem; }
+  .right-content h1 {
+    font-family: "Montserrat";
+    font-weight: 600;
+    margin-bottom: 5rem; }
+  .right-content p {
+    color: #A0A8BC;
+    font-family: "Montserrat";
+    margin-bottom: 3rem;
+    position: relative; }
+  .right-content p::before {
+    position: absolute;
+    content: url(/img/çizgi.png);
+    top: -55px;
+    left: 4px;
+    height: auto;
+    position: absolute; }
+
+.btn-on-header {
+  height: 45px;
+  width: 190px;
+  background-color: #F5F8FF;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Playfair Display";
+  font-weight: 600;
+  line-height: 1.5rem;
+  letter-spacing: 2%;
+  color: #0E1C3E;
+  cursor: pointer;
+  margin: 0.5rem; }
+
+.btn-on-header::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 59px;
+  width: 205px;
+  background-color: transparent;
+  border: 2px solid white; }
+
+.btn-first-section {
+  height: 45px;
+  width: 190px;
+  background-color: #0E1C3E;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Playfair Display";
+  font-weight: 600;
+  line-height: 1.5rem;
+  letter-spacing: 2%;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 0.5rem; }
+
+.btn-first-section::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 59px;
+  width: 205px;
+  background-color: transparent;
+  border: 2px solid #0E1C3E; }
+
+section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  section .container {
+    width: 90%;
+    max-width: 500px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */ }
+    section .container .right {
+      width: 90%;
+      min-height: 1rem;
+      background: linear-gradient(148.7deg, rgba(255, 220, 228, 0.7) 22.66%, rgba(191, 218, 255, 0.7) 75.15%);
+      backdrop-filter: blur(7px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+      color: white;
+      margin-right: -150px;
+      z-index: 100; }
+      section .container .right .fa-arrow-right {
+        color: #000000; }
+      section .container .right .content-2 p {
+        font-family: "Montserrat";
+        color: #000000; }
+      section .container .right .content-2 h1 {
+        font-family: "Playfair Display";
+        z-index: 10;
+        position: relative; }
+      section .container .right .content-3 {
+        padding-left: 6.5rem; }
+    section .container .left {
+      width: 80%;
+      height: 500px;
+      background: url(/img/eldecicek.png) no-repeat center/cover; }
+
+.content-2 h1::before {
+  content: "01";
+  top: -16.5px;
+  left: -15px;
+  height: auto;
+  position: absolute;
+  font-size: 5.5rem;
+  font-weight: 900;
+  font-family: "Montserrat";
+  z-index: -6;
+  color: transparent;
+  -webkit-text-stroke: 0.5px #d1d0d0;
+  text-stroke: 2px #e2e0e0;
+  text-shadow: none; }
+
+.copyright-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  .copyright-content img {
+    width: 10rem; }
+
+.social-icons-footer .social-active {
+  padding: 1rem;
+  color: #0E1C3E;
+  background: linear-gradient(148.7deg, #FFDCE4 22.66%, #BFDAFF 75.15%); }
+.social-icons-footer .social-footer {
+  margin-right: 0.3rem;
+  color: #ffffff;
+  background-color: #0E1C3E;
+  padding: 1rem; }
+
+.bg-copyright-1 {
+  background-color: #10141F; }
+
+#footer {
+  background-color: #10141F; }
+
+.aresa-footer-logo img {
+  width: 11rem; }
+
+.wrapper-color {
+  background-color: #10141F; }
+
+.bg-copyright-1 {
+  border-top: 0.5px solid #1F2D52; }
+
+.w-1000 {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  background-color: #10141F; }
+  .w-1000 h5 {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 1rem;
+    background: -webkit-linear-gradient(#ffdce4, #bfdaff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  .w-1000 ul li:nth-child(4) {
+    padding-bottom: 0;
+    border-bottom: 0px; }
+  .w-1000 ul li {
+    border-bottom: 1px solid #1F2D52;
+    border-top: 0.6rem;
+    width: 100%;
+    padding-bottom: 0.6rem; }
+    .w-1000 ul li i {
+      padding: 0.2rem;
+      padding-right: 0.4rem;
+      color: #ffffff; }
+    .w-1000 ul li a {
+      text-decoration: none;
+      color: #ffffff;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400; }
+
+@media screen and (max-width: 767px) {
+  .appear-animationn {
+    display: none; }
+
+  .w-1000 ul {
+    width: 60%; }
+
+  .right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 0 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 6rem;
+    text-align: center; }
+    .right-content h1 {
+      font-family: "Montserrat";
+      font-weight: 600; }
+    .right-content p {
+      color: #A0A8BC;
+      font: "Montserrat"; } }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,22 @@
+.aresa-logo {
+    max-width: 100px;
+}
+
+ul {
+    .font-weight-bold {
+        font-family: $mont;
+    }
+
+    li {
+        
+        a {
+            font-family: $playfair;
+            text-decoration: none;
+           
+        }
+        a:hover{
+            text-decoration: none;
+        }
+    }
+
+}

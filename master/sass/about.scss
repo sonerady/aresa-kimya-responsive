@@ -1,0 +1,29 @@
+@import "mixins";
+@import "variables";
+@import "aresa-logo-navbar.scss";
+
+
+
+
+
+
+.info {
+    font-family: $mont;
+    font-weight: 400;
+    color: #000000;
+}
+
+
+
+//////////// MEDİA QUERY //////////7
+
+@media screen and (max-width:760px){
+    .images-wrapper{
+        display: flex;
+        padding-left:0rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+}

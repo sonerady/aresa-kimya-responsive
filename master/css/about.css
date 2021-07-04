@@ -1,0 +1,25 @@
+.aresa-logo {
+  max-width: 100px; }
+
+ul .font-weight-bold {
+  font-family: "Montserrat"; }
+ul li a {
+  font-family: "Playfair Display";
+  text-decoration: none; }
+ul li a:hover {
+  text-decoration: none; }
+
+.info {
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: #000000; }
+
+@media screen and (max-width: 760px) {
+  .images-wrapper {
+    display: flex;
+    padding-left: 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; } }
+
+/*# sourceMappingURL=about.css.map */
